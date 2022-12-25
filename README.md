@@ -8,7 +8,7 @@
 ### Starter Code:
 The structure for this exercise is already created for you.
 
-**NOTE** This project was created using `npx-create-react-app` command - which means all the necessary modules was installed when this command got executed. And then there are some external modules as well - like material ui; which was installed using `npm install @mui/icons-material` command. So, if you only clone this repository and start making changes in the required files, you will not able to see any changes, or you may ran into errors like - module not found. The main reason for this is that -- inside your project you are trying to use some modules, which your system may not have, so you need to install those modules first. 
+**NOTE** This project was created using `npx create-react-app` command - which means all the necessary modules was installed when this command got executed. And then there are some external modules as well - like material ui; which was installed using `npm install @mui/icons-material` command. So, if you only clone this repository and start making changes in the required files, you will not able to see any changes, or you may ran into errors like - module not found. The main reason for this is that -- inside your project you are trying to use some modules, which your system may not have, so you need to install those modules first. 
 So in order to install all the required modules -> you have to type this command on your terminal:
 `npm install` or `npm i`
 This will install all the required modules for this project to be working.
