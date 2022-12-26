@@ -1,1 +1,47 @@
 /* write your carousel css in this file */
+.container{
+    display: flex;
+    border: 2px solid black;
+    margin: 2vh;
+    justify-content: center;
+}
+.arrowback{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2vh;
+}
+.arrowfront{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2vh;
+}
+.imgCard{
+    text-align: center;
+    height: 80vh;
+}
+.imgCard h2{
+    position: absolute;
+    justify-content: center;
+    color: white;
+}
+.imgCard h2:nth-child(2){
+    top: 55vh;
+    left: 85vh;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.imgCard h2:nth-child(1){
+    left: 100vh;
+    top: 10vh;
+    display: flex;
+    justify-content: center;
+    /* right: auto; */
+}
+img{
+    margin-top: 5vh;
+    float: left;
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+}
